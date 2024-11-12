@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("03b500ea-8268-476d-8a04-c6971f46d5d4",{name:"AngelicaFranco"});
+    posthog.capture("report_feature",{karate_version:"1.3.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.resources.karate.get</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-11-07 08:14:32 PM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[2:16]"><span>[2:16]</span> <span>validar dinamicamente una lista de articulos</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/resources/karate/get.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">practica conduit get simple</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:16]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:16]</span>
+                <span class="scenario-name">validar dinamicamente una lista de articulos</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1975</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:16]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:16]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://conduit-realworld-example-app.fly.dev&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">122</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:16]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def pathArticulos = &#39;/api/articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:16]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenUsuario = &#39;Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlBydWViYXMiLCJlbWFpbCI6InBydWViYXMxODRAZ21haWwuY29tIiwiaWF0IjoxNzI4MTYwMDIwfQ.jAaqtttJuXXjEVy5-Q_WIbfGrySYrWc9HbjT4qdEQE0&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def claseJava =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">39</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.17">function(articulos){
+  var javaGenerate = Java.type(&#39;conduit.NumeroAleatorio&#39;);
+  var item = new javaGenerate();
+  return item.getNumeroAleatorio(articulos);
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path pathArticulos</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param limit = 10</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param offset = 0</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1681</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.29">20:14:31.985 request:
+1 &gt; GET https://conduit-realworld-example-app.fly.dev/api/articles?offset=0&amp;limit=10
+1 &gt; Host: conduit-realworld-example-app.fly.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:14:32.461 response time in milliseconds: 473
+1 &lt; 200
+1 &lt; x-powered-by: Express
+1 &lt; access-control-allow-origin: *
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; etag: W/&quot;1194-XICafiQMWcpaOVAkqcUVH2XlCJc&quot;
+1 &lt; date: Fri, 08 Nov 2024 01:14:32 GMT
+1 &lt; connection: keep-alive
+1 &lt; keep-alive: timeout=5
+1 &lt; transfer-encoding: chunked
+1 &lt; server: Fly/2936d2942 (2024-10-30)
+1 &lt; via: 1.1 fly.io
+1 &lt; fly-request-id: 01JC4NCMSCXRR9RM7298J1G2Y4-bog
+{&quot;articles&quot;:[{&quot;slug&quot;:&quot;edition-titleutpote-concido&quot;,&quot;title&quot;:&quot;Edition titleutpote concido&quot;,&quot;description&quot;:&quot;Edition descriptionvirtus thermae&quot;,&quot;body&quot;:&quot;Edition bodyvulariter venia&quot;,&quot;createdAt&quot;:&quot;2024-11-07T13:45:45.477Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-07T13:45:46.001Z&quot;,&quot;tagList&quot;:[&quot;tag1&quot;,&quot;tag2&quot;],&quot;author&quot;:{&quot;username&quot;:&quot;User&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;following&quot;:false,&quot;followersCount&quot;:0},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;slug&quot;:&quot;edition-titleassumenda-patrocinor&quot;,&quot;title&quot;:&quot;Edition titleassumenda patrocinor&quot;,&quot;description&quot;:&quot;Edition descriptionpatria adflicto&quot;,&quot;body&quot;:&quot;Edition bodydefungo summisse deleo confido curatio&quot;,&quot;createdAt&quot;:&quot;2024-11-07T13:45:43.272Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-07T13:45:43.801Z&quot;,&quot;tagList&quot;:[&quot;tag1&quot;,&quot;tag2&quot;],&quot;author&quot;:{&quot;username&quot;:&quot;User&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;following&quot;:false,&quot;followersCount&quot;:0},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;slug&quot;:&quot;article1praesentium-vomica-agnitio-comitatus-ago&quot;,&quot;title&quot;:&quot;Article1praesentium vomica agnitio comitatus ago&quot;,&quot;description&quot;:&quot;Article descriptionars angustus tandem antiquus vilicus quod&quot;,&quot;body&quot;:&quot;Article bodysunt absconditus cervus error voluptatum cognomen terror coniuratio autus delinquo curia arto censura comparo cohaero nulla coepi sodalitas despecto tondeo&quot;,&quot;createdAt&quot;:&quot;2024-11-07T13:45:39.606Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-07T13:45:39.607Z&quot;,&quot;tagList&quot;:[],&quot;author&quot;:{&quot;username&quot;:&quot;User&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;following&quot;:false,&quot;followersCount&quot;:0},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;slug&quot;:&quot;article1cohors-capto&quot;,&quot;title&quot;:&quot;Article1cohors capto&quot;,&quot;description&quot;:&quot;Article descriptionculpa tremo&quot;,&quot;body&quot;:&quot;Article bodyalo adstringo doloribus solutio vere&quot;,&quot;createdAt&quot;:&quot;2024-11-07T13:45:37.514Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-07T13:45:37.521Z&quot;,&quot;tagList&quot;:[&quot;tag1&quot;,&quot;tag2&quot;],&quot;author&quot;:{&quot;username&quot;:&quot;User&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;following&quot;:false,&quot;followersCount&quot;:0},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;slug&quot;:&quot;edition-titledeprecator-tripudio&quot;,&quot;title&quot;:&quot;Edition titledeprecator tripudio&quot;,&quot;description&quot;:&quot;Edition descriptionvis terminatio&quot;,&quot;body&quot;:&quot;Edition bodyconfido amaritudo&quot;,&quot;createdAt&quot;:&quot;2024-11-07T13:45:25.666Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-07T13:45:25.972Z&quot;,&quot;tagList&quot;:[&quot;tag1&quot;,&quot;tag2&quot;],&quot;author&quot;:{&quot;username&quot;:&quot;User&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;following&quot;:false,&quot;followersCount&quot;:0},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;slug&quot;:&quot;edition-titlecognomen-celer&quot;,&quot;title&quot;:&quot;Edition titlecognomen celer&quot;,&quot;description&quot;:&quot;Edition descriptionuniverse canto&quot;,&quot;body&quot;:&quot;Edition bodyaverto correptius vaco vinculum adfectus&quot;,&quot;createdAt&quot;:&quot;2024-11-07T13:45:23.097Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-07T13:45:23.663Z&quot;,&quot;tagList&quot;:[&quot;tag1&quot;,&quot;tag2&quot;],&quot;author&quot;:{&quot;username&quot;:&quot;User&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;following&quot;:false,&quot;followersCount&quot;:0},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;slug&quot;:&quot;article1vomito-vinculum-beatae-tego-supellex&quot;,&quot;title&quot;:&quot;Article1vomito vinculum beatae tego supellex&quot;,&quot;description&quot;:&quot;Article descriptionarcesso tremo thalassinus reiciendis provident culpo&quot;,&quot;body&quot;:&quot;Article bodyattollo vespillo stillicidium animadverto laborum ago curtus celo ago cursim custodia consequatur cursus assentator inventore assumenda adiuvo creta crastinus video&quot;,&quot;createdAt&quot;:&quot;2024-11-07T13:45:18.418Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-07T13:45:18.420Z&quot;,&quot;tagList&quot;:[],&quot;author&quot;:{&quot;username&quot;:&quot;User&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;following&quot;:false,&quot;followersCount&quot;:0},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;slug&quot;:&quot;article1charisma-thema&quot;,&quot;title&quot;:&quot;Article1charisma thema&quot;,&quot;description&quot;:&quot;Article descriptiontempore vigilo&quot;,&quot;body&quot;:&quot;Article bodyalias veniam suadeo alter autem&quot;,&quot;createdAt&quot;:&quot;2024-11-07T13:45:15.985Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-07T13:45:15.996Z&quot;,&quot;tagList&quot;:[&quot;tag1&quot;,&quot;tag2&quot;],&quot;author&quot;:{&quot;username&quot;:&quot;User&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;following&quot;:false,&quot;followersCount&quot;:0},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;slug&quot;:&quot;edition-titlesolvo-ipsum&quot;,&quot;title&quot;:&quot;Edition titlesolvo ipsum&quot;,&quot;description&quot;:&quot;Edition descriptioncito conculco&quot;,&quot;body&quot;:&quot;Edition bodyaegrus conduco&quot;,&quot;createdAt&quot;:&quot;2024-11-07T13:45:03.862Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-07T13:45:04.329Z&quot;,&quot;tagList&quot;:[&quot;tag1&quot;,&quot;tag2&quot;],&quot;author&quot;:{&quot;username&quot;:&quot;User&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;following&quot;:false,&quot;followersCount&quot;:0},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;slug&quot;:&quot;edition-titleadversus-acceptus&quot;,&quot;title&quot;:&quot;Edition titleadversus acceptus&quot;,&quot;description&quot;:&quot;Edition descriptionvenustas valde&quot;,&quot;body&quot;:&quot;Edition bodyquidem attonbitus laudantium deprecator sordeo&quot;,&quot;createdAt&quot;:&quot;2024-11-07T13:45:01.702Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-07T13:45:02.284Z&quot;,&quot;tagList&quot;:[&quot;tag1&quot;,&quot;tag2&quot;],&quot;author&quot;:{&quot;username&quot;:&quot;User&quot;,&quot;bio&quot;:null,&quot;image&quot;:null,&quot;following&quot;:false,&quot;followersCount&quot;:0},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0}],&quot;articlesCount&quot;:877}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">67</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.31">20:14:32.563 [print] {
+  &quot;articles&quot;: [
+    {
+      &quot;slug&quot;: &quot;edition-titleutpote-concido&quot;,
+      &quot;title&quot;: &quot;Edition titleutpote concido&quot;,
+      &quot;description&quot;: &quot;Edition descriptionvirtus thermae&quot;,
+      &quot;body&quot;: &quot;Edition bodyvulariter venia&quot;,
+      &quot;createdAt&quot;: &quot;2024-11-07T13:45:45.477Z&quot;,
+      &quot;updatedAt&quot;: &quot;2024-11-07T13:45:46.001Z&quot;,
+      &quot;tagList&quot;: [
+        &quot;tag1&quot;,
+        &quot;tag2&quot;
+      ],
+      &quot;author&quot;: {
+        &quot;username&quot;: &quot;User&quot;,
+        &quot;bio&quot;: null,
+        &quot;image&quot;: null,
+        &quot;following&quot;: false,
+        &quot;followersCount&quot;: 0
+      },
+      &quot;favorited&quot;: false,
+      &quot;favoritesCount&quot;: 0
+    },
+    {
+      &quot;slug&quot;: &quot;edition-titleassumenda-patrocinor&quot;,
+      &quot;title&quot;: &quot;Edition titleassumenda patrocinor&quot;,
+      &quot;description&quot;: &quot;Edition descriptionpatria adflicto&quot;,
+      &quot;body&quot;: &quot;Edition bodydefungo summisse deleo confido curatio&quot;,
+      &quot;createdAt&quot;: &quot;2024-11-07T13:45:43.272Z&quot;,
+      &quot;updatedAt&quot;: &quot;2024-11-07T13:45:43.801Z&quot;,
+      &quot;tagList&quot;: [
+        &quot;tag1&quot;,
+        &quot;tag2&quot;
+      ],
+      &quot;author&quot;: {
+        &quot;username&quot;: &quot;User&quot;,
+        &quot;bio&quot;: null,
+        &quot;image&quot;: null,
+        &quot;following&quot;: false,
+        &quot;followersCount&quot;: 0
+      },
+      &quot;favorited&quot;: false,
+      &quot;favoritesCount&quot;: 0
+    },
+    {
+      &quot;slug&quot;: &quot;article1praesentium-vomica-agnitio-comitatus-ago&quot;,
+      &quot;title&quot;: &quot;Article1praesentium vomica agnitio comitatus ago&quot;,
+      &quot;description&quot;: &quot;Article descriptionars angustus tandem antiquus vilicus quod&quot;,
+      &quot;body&quot;: &quot;Article bodysunt absconditus cervus error voluptatum cognomen terror coniuratio autus delinquo curia arto censura comparo cohaero nulla coepi sodalitas despecto tondeo&quot;,
+      &quot;createdAt&quot;: &quot;2024-11-07T13:45:39.606Z&quot;,
+      &quot;updatedAt&quot;: &quot;2024-11-07T13:45:39.607Z&quot;,
+      &quot;tagList&quot;: [
+      ],
+      &quot;author&quot;: {
+        &quot;username&quot;: &quot;User&quot;,
+        &quot;bio&quot;: null,
+        &quot;image&quot;: null,
+        &quot;following&quot;: false,
+        &quot;followersCount&quot;: 0
+      },
+      &quot;favorited&quot;: false,
+      &quot;favoritesCount&quot;: 0
+    },
+    {
+      &quot;slug&quot;: &quot;article1cohors-capto&quot;,
+      &quot;title&quot;: &quot;Article1cohors capto&quot;,
+      &quot;description&quot;: &quot;Article descriptionculpa tremo&quot;,
+      &quot;body&quot;: &quot;Article bodyalo adstringo doloribus solutio vere&quot;,
+      &quot;createdAt&quot;: &quot;2024-11-07T13:45:37.514Z&quot;,
+      &quot;updatedAt&quot;: &quot;2024-11-07T13:45:37.521Z&quot;,
+      &quot;tagList&quot;: [
+        &quot;tag1&quot;,
+        &quot;tag2&quot;
+      ],
+      &quot;author&quot;: {
+        &quot;username&quot;: &quot;User&quot;,
+        &quot;bio&quot;: null,
+        &quot;image&quot;: null,
+        &quot;following&quot;: false,
+        &quot;followersCount&quot;: 0
+      },
+      &quot;favorited&quot;: false,
+      &quot;favoritesCount&quot;: 0
+    },
+    {
+      &quot;slug&quot;: &quot;edition-titledeprecator-tripudio&quot;,
+      &quot;title&quot;: &quot;Edition titledeprecator tripudio&quot;,
+      &quot;description&quot;: &quot;Edition descriptionvis terminatio&quot;,
+      &quot;body&quot;: &quot;Edition bodyconfido amaritudo&quot;,
+      &quot;createdAt&quot;: &quot;2024-11-07T13:45:25.666Z&quot;,
+      &quot;updatedAt&quot;: &quot;2024-11-07T13:45:25.972Z&quot;,
+      &quot;tagList&quot;: [
+        &quot;tag1&quot;,
+        &quot;tag2&quot;
+      ],
+      &quot;author&quot;: {
+        &quot;username&quot;: &quot;User&quot;,
+        &quot;bio&quot;: null,
+        &quot;image&quot;: null,
+        &quot;following&quot;: false,
+        &quot;followersCount&quot;: 0
+      },
+      &quot;favorited&quot;: false,
+      &quot;favoritesCount&quot;: 0
+    },
+    {
+      &quot;slug&quot;: &quot;edition-titlecognomen-celer&quot;,
+      &quot;title&quot;: &quot;Edition titlecognomen celer&quot;,
+      &quot;description&quot;: &quot;Edition descriptionuniverse canto&quot;,
+      &quot;body&quot;: &quot;Edition bodyaverto correptius vaco vinculum adfectus&quot;,
+      &quot;createdAt&quot;: &quot;2024-11-07T13:45:23.097Z&quot;,
+      &quot;updatedAt&quot;: &quot;2024-11-07T13:45:23.663Z&quot;,
+      &quot;tagList&quot;: [
+        &quot;tag1&quot;,
+        &quot;tag2&quot;
+      ],
+      &quot;author&quot;: {
+        &quot;username&quot;: &quot;User&quot;,
+        &quot;bio&quot;: null,
+        &quot;image&quot;: null,
+        &quot;following&quot;: false,
+        &quot;followersCount&quot;: 0
+      },
+      &quot;favorited&quot;: false,
+      &quot;favoritesCount&quot;: 0
+    },
+    {
+      &quot;slug&quot;: &quot;article1vomito-vinculum-beatae-tego-supellex&quot;,
+      &quot;title&quot;: &quot;Article1vomito vinculum beatae tego supellex&quot;,
+      &quot;description&quot;: &quot;Article descriptionarcesso tremo thalassinus reiciendis provident culpo&quot;,
+      &quot;body&quot;: &quot;Article bodyattollo vespillo stillicidium animadverto laborum ago curtus celo ago cursim custodia consequatur cursus assentator inventore assumenda adiuvo creta crastinus video&quot;,
+      &quot;createdAt&quot;: &quot;2024-11-07T13:45:18.418Z&quot;,
+      &quot;updatedAt&quot;: &quot;2024-11-07T13:45:18.420Z&quot;,
+      &quot;tagList&quot;: [
+      ],
+      &quot;author&quot;: {
+        &quot;username&quot;: &quot;User&quot;,
+        &quot;bio&quot;: null,
+        &quot;image&quot;: null,
+        &quot;following&quot;: false,
+        &quot;followersCount&quot;: 0
+      },
+      &quot;favorited&quot;: false,
+      &quot;favoritesCount&quot;: 0
+    },
+    {
+      &quot;slug&quot;: &quot;article1charisma-thema&quot;,
+      &quot;title&quot;: &quot;Article1charisma thema&quot;,
+      &quot;description&quot;: &quot;Article descriptiontempore vigilo&quot;,
+      &quot;body&quot;: &quot;Article bodyalias veniam suadeo alter autem&quot;,
+      &quot;createdAt&quot;: &quot;2024-11-07T13:45:15.985Z&quot;,
+      &quot;updatedAt&quot;: &quot;2024-11-07T13:45:15.996Z&quot;,
+      &quot;tagList&quot;: [
+        &quot;tag1&quot;,
+        &quot;tag2&quot;
+      ],
+      &quot;author&quot;: {
+        &quot;username&quot;: &quot;User&quot;,
+        &quot;bio&quot;: null,
+        &quot;image&quot;: null,
+        &quot;following&quot;: false,
+        &quot;followersCount&quot;: 0
+      },
+      &quot;favorited&quot;: false,
+      &quot;favoritesCount&quot;: 0
+    },
+    {
+      &quot;slug&quot;: &quot;edition-titlesolvo-ipsum&quot;,
+      &quot;title&quot;: &quot;Edition titlesolvo ipsum&quot;,
+      &quot;description&quot;: &quot;Edition descriptioncito conculco&quot;,
+      &quot;body&quot;: &quot;Edition bodyaegrus conduco&quot;,
+      &quot;createdAt&quot;: &quot;2024-11-07T13:45:03.862Z&quot;,
+      &quot;updatedAt&quot;: &quot;2024-11-07T13:45:04.329Z&quot;,
+      &quot;tagList&quot;: [
+        &quot;tag1&quot;,
+        &quot;tag2&quot;
+      ],
+      &quot;author&quot;: {
+        &quot;username&quot;: &quot;User&quot;,
+        &quot;bio&quot;: null,
+        &quot;image&quot;: null,
+        &quot;following&quot;: false,
+        &quot;followersCount&quot;: 0
+      },
+      &quot;favorited&quot;: false,
+      &quot;favoritesCount&quot;: 0
+    },
+    {
+      &quot;slug&quot;: &quot;edition-titleadversus-acceptus&quot;,
+      &quot;title&quot;: &quot;Edition titleadversus acceptus&quot;,
+      &quot;description&quot;: &quot;Edition descriptionvenustas valde&quot;,
+      &quot;body&quot;: &quot;Edition bodyquidem attonbitus laudantium deprecator sordeo&quot;,
+      &quot;createdAt&quot;: &quot;2024-11-07T13:45:01.702Z&quot;,
+      &quot;updatedAt&quot;: &quot;2024-11-07T13:45:02.284Z&quot;,
+      &quot;tagList&quot;: [
+        &quot;tag1&quot;,
+        &quot;tag2&quot;
+      ],
+      &quot;author&quot;: {
+        &quot;username&quot;: &quot;User&quot;,
+        &quot;bio&quot;: null,
+        &quot;image&quot;: null,
+        &quot;following&quot;: false,
+        &quot;followersCount&quot;: 0
+      },
+      &quot;favorited&quot;: false,
+      &quot;favoritesCount&quot;: 0
+    }
+  ],
+  &quot;articlesCount&quot;: 877
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def numAleatorio = claseJava(response.articles)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">22</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print numAleatorio</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.33">20:14:32.588 [print] 9 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref failed">34</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>json result = response.article[numAleatorio]</span>
+      </div>
+    </div>
+    <div class="time-cell failed">27</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34">20:14:32.615 src/test/resources/karate/get.feature:34
+* json result = response.article[numAleatorio]
+js failed:
+&gt;&gt;&gt;&gt;
+01: response.article[numAleatorio]
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property &quot;9&quot; from undefined
+- &lt;js&gt;.:program(Unnamed:1)
+
+src/test/resources/karate/get.feature:34
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref skipped">35</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match result contains {&quot;title&quot;:&quot;#string&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
